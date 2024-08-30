@@ -1,0 +1,253 @@
+/* 전체 화면에 적용될 기본 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 컨테이너 스타일 */
+.containers {
+
+    max-width: 800px;
+    width: 100%;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 게시글 헤더 스타일 */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/* 버튼 스타일 */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions .btns {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.actions .btns:hover {
+    background-color: #0056b3;
+}
+
+#delete-button {
+    background-color: #dc3545;
+}
+
+#delete-button:hover {
+    background-color: #c82333;
+}
+
+.deletes-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.deletes-button:hover {
+        background-color: #c82333;
+    }
+
+
+/* 작성자와 날짜 스타일 */
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#post-author, #post-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* 글 내용 박스 스타일 */
+#contentdiv {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    height: 300px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* 댓글 섹션 스타일 */
+#comments-section {
+    margin-top: 30px;
+}
+
+#comments-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+/* 댓글 박스 스타일 */
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-content {
+    margin-bottom: 5px;
+}
+
+/* 대댓글 스타일 */
+.reply {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reply-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.replys-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.replyss-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.reply-btn:hover {
+    background-color: #0056b3;
+}
+
+/* 댓글 작성 폼 스타일 */
+#comment-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+#reply-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+.reply-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+
+#replys-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+.replys-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+#replyss-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+.replyss-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.comment-submit-container {
+    text-align: right;
+}
+
+.submit-comment {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.submit-comment:hover {
+    background-color: #0056b3;
+}
+
