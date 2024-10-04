@@ -6,4 +6,5 @@
 
     프로젝트 내용 
 
-        jsp와 jpa를 이용하여 게시판 사이트를 만들어보자 
+        jsp와 jpa를 이용하여 게시판 사이트를 만들어보자
+   원본 파일 주소: https://github.com/Aristia0930/study
